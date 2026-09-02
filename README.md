@@ -57,4 +57,6 @@ x-content-optimizer-agent/
 
 ## License
 
-发布前请选定开源许可证并补充 LICENSE 文件；未附许可证时默认保留所有权利。
+本项目使用 [MIT](LICENSE) 许可证。
+
+Copyright (c) 2026 万婧
