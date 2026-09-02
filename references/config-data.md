@@ -53,7 +53,13 @@ python scripts/fetch_history.py tweet <tweet_id> [--account @handle]
 
 ## 账号档案
 
-每账号一份 JSON（默认 `work/<account>-profile.json`，也可由审核人直接提供）。关键字段：
+每账号一份 JSON。查找顺序：
+
+1. 固定数据目录：`~/.codex/x-content-optimizer-agent/profiles/<account>-profile.json`（Windows 下为 `C:\Users\<用户名>\.codex\x-content-optimizer-agent\profiles\...`）；
+2. 当前运行目录的 `work/<account>-profile.json`；
+3. 审核人直接提供 JSON 内容。
+
+首次使用某账号且尚无档案时，按审核人给出的 handle、语言、定位创建档案并存入固定数据目录。关键字段：
 
 ```json
 {
