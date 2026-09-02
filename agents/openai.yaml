@@ -1,0 +1,3 @@
+interface:
+  display_name: "X Content Optimizer Agent"
+  short_description: "发布前检查与优化 X 帖子，给出发布/修改/延后/禁止决策与复盘"
